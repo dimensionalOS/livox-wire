@@ -1,0 +1,16 @@
+[package]
+name = "livox-wire"
+version = "0.1.0"
+edition = "2021"
+description = "Livox SDK2 wire format: packet parsing, pcap replay and the point/IMU pipeline shared by dimos' Mid-360 modules"
+license = "Apache-2.0"
+repository = "https://github.com/jeff-hykin/livox-wire"
+
+[dependencies]
+crc = "3"
+etherparse = "0.21.0"
+pcap-parser = "0.17.0"
+tracing = "0.1"
+
+[dev-dependencies]
+tempfile = "3"
